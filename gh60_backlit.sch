@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:kicad_parts
-LIBS:gh60_backlit-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -22,7 +21,8 @@ P 3500 2000
 F 0 "U1" H 3350 2200 60  0000 C CNN
 F 1 "PAM2804" H 3500 1800 60  0000 C CNN
 F 2 "Footprint:SOT-23-5" H 3500 2050 60  0001 C CNN
-F 3 "" H 3500 2050 60  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/115/PAM2804-247271.pdf" H 3500 2050 60  0001 C CNN
+F 4 "PAM2804AAB010" H 3500 2000 60  0001 C CNN "manf#"
 	1    3500 2000
 	1    0    0    -1  
 $EndComp
@@ -33,7 +33,8 @@ P 4200 1900
 F 0 "L1" V 4150 1900 40  0000 C CNN
 F 1 "4.7uH" V 4300 1900 40  0000 C CNN
 F 2 "Footprint:Inductor_Bourn_4mmx4mm" H 4200 1900 60  0001 C CNN
-F 3 "" H 4200 1900 60  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/445/744766904-709959.pdf" H 4200 1900 60  0001 C CNN
+F 4 "744766904" V 4200 1900 60  0001 C CNN "manf#"
 	1    4200 1900
 	0    -1   -1   0   
 $EndComp
@@ -44,7 +45,8 @@ P 2750 2050
 F 0 "C1" H 2775 2150 50  0000 L CNN
 F 1 "10uF" H 2775 1950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 1900 50  0001 C CNN
-F 3 "" H 2750 2050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-358835.pdf" H 2750 2050 50  0001 C CNN
+F 4 "CC0805ZKY5V7BB106" H 2750 2050 60  0001 C CNN "manf#"
 	1    2750 2050
 	1    0    0    -1  
 $EndComp
@@ -55,7 +57,8 @@ P 5100 2250
 F 0 "C2" H 5125 2350 50  0000 L CNN
 F 1 "10uF" H 5125 2150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5138 2100 50  0001 C CNN
-F 3 "" H 5100 2250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/Yageo_UPY-GP_NP0_16V-to-50V_9-358835.pdf" H 5100 2250 50  0001 C CNN
+F 4 "CC0805ZKY5V7BB106" H 5100 2250 60  0001 C CNN "manf#"
 	1    5100 2250
 	1    0    0    -1  
 $EndComp
@@ -64,9 +67,10 @@ L R R1
 U 1 1 59F0E43C
 P 3900 3950
 F 0 "R1" V 3980 3950 50  0000 C CNN
-F 1 "R" V 3900 3950 50  0000 C CNN
+F 1 "0.5" V 3900 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3830 3950 50  0001 C CNN
-F 3 "" H 3900 3950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/PYu-RL_Group_521_RoHS_L_2-1131815.pdf" H 3900 3950 50  0001 C CNN
+F 4 "RL0805FR-7W0R5L" V 3900 3950 60  0001 C CNN "manf#"
 	1    3900 3950
 	1    0    0    -1  
 $EndComp
